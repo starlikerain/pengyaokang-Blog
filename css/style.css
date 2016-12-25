@@ -20,13 +20,13 @@ div#test {
     transition: transform 0.1s;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
     text-align: center;
-    line-height: 300px;
-    font-size: 50px;
+    line-height: 150px;
+    font-size: 20px;
     color: #fff;
 }
 
 #banner .ganbei {
-    font-size: 35px;
+    font-size: 20px;
 }
 
 body {
