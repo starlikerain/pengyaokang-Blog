@@ -25,6 +25,10 @@ div#test {
     color: #fff;
 }
 
+#banner .ganbei {
+    font-size: 35px;
+}
+
 body {
     background: #1485CC;
     padding: 20px;
