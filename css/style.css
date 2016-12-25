@@ -75,8 +75,28 @@ body {
 }
 
 #nav-guide {
+    height: 280px;
     width: 430px;
     float: right;
+}
+
+.nav-child-list{
+    opacity: 0;
+    position: absolute;
+    padding: 4px 15px;
+    transition:all 0.5s;
+}
+
+.nav-child-list>li>a:hover {
+    color: white;;
+}
+
+#nav-guide:hover .nav-child-list {
+    opacity: 1;
+}
+
+#nav-guide:hover a{
+    border-bottom: 1px solid white;
 }
 
 #nav-guide > li {
@@ -98,4 +118,9 @@ body {
 
 .active>a {
     color: white;
+}
+
+.color-white {
+    color: white;
+    transition: all 0.3s;
 }
