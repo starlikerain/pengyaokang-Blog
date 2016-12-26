@@ -1,9 +1,6 @@
 /**
  * Created by StarLikeRain on 25/12/2016.
  */
-console.log(window.jQuery && jQuery);
-console.log($('#test'));
-
 $('#test').on('mousemove', function (e) {
 
     var offset = $('#test').offset()
