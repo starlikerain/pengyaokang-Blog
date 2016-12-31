@@ -29,7 +29,7 @@ Ele_text.on('mousemove', function (e) {
         transform: 'rotateX(' + deg * -percentY + 'deg)' +
         ' rotateY(' + deg * percentX + 'deg)' +
         'translate3d(0,0,50px  )'
-    })m
+    })
 });
 
 Ele_text.on('mouseleave', function () {
