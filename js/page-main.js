@@ -20,13 +20,15 @@ $(function () {
 
     $('.header-content').css({'margin-top': 30, 'opacity': 1});
 
+    $('.min-partner').css({'opacity': 1});
+
     $(window).on('scroll', () => {
 
         // window.timer = setTimeout(function () {
         //     console.log('1111');
         //     header_content_check();
         // }, 1000);
-    })
+    });
 
     function header_content_check() {
 
@@ -152,7 +154,7 @@ particlesJS("particles-js", {
 
 /* ---- stats.js config ---- */
 
-var count_particles, stats, update;
+let count_particles, stats, update;
 stats = new Stats;
 stats.setMode(0);
 stats.domElement.style.position = 'absolute';

@@ -11,18 +11,20 @@ div#test {
     height: 300px;
     width: 400px;
     margin: 0 auto;
-    background: #0971B2;
+    background: #2994C1;
     transition: transform 0.1s;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     text-align: center;
     line-height: 150px;
     font-size: 20px;
     color: #fff;
 }
 
+
 #banner .ganbei {
     font-size: 20px;
 }
+
 
 html,
 body {
@@ -205,18 +207,58 @@ p, ul, ol {
     background: #fff;
 }
 
+/*在header下面的小框框*/
+.min-partner {
+    box-shadow: 1px 1px 1px black;
+    opacity: 0;
+    display: flex;
+    overflow: auto;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    width: 70%;
+    height: 100px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 2s;
+}
+
+.min-partner .inner {
+    flex:1;
+    overflow: hidden;
+    display: block;
+    height: 100%;
+    width: 25%;
+    float: left;
+
+}
+
+.min-partner .inner:last-child {
+    background-color: #7e8c8d;
+}
+
+.min-partner .inner p {
+    content: '';
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 75px;
+    background-color: red;
+}
 
 
+.min-partner .inner img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 65%;
+    height: auto;
 
+}
 
-
-
-
-
-
-
-
-
+.heigh {
+    height: 51px;
+    background-color: pink;
+}
 
 
 
