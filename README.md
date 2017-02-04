@@ -1,3 +1,3 @@
 # pengyaokang-Blog
-use Heroku & 阿里云
-pengyaokang-blog
+预想用Vue搭建以及阿里云解析
+Personal blog
