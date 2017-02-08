@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0436)http://i.yimg.jp/images/listing/tool/yads/yads-iframe.html?s=38220_154415-189416&t=f&ssl=0&fr_id=yads_5568114-0&xd_support=1&fl_support=24&fr_support=1&enc=UTF-8&pv_ts=1486263706352-8332775&tag_path=http%3a%2f%2fyads.yjtag.yahoo.co.jp%2ftag&page=1&u=http%3a%2f%2fwww.pixiv.net%2fmember_illust.php%3fmode%3dmedium%26illust_id%3d60881988&ref=http%3a%2f%2fwww.pixiv.net%2fmember_illust.php%3fmode%3dmedium%26illust_id%3d60881988&tagpos=0x0 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex,nofollow">
+</head>
+<body style="background-color: transparent; padding: 0px; margin: 0px; text-align: center;">
+
+<div style="margin-left: auto; margin-right: auto;">
+
+<div id="yads-pr-label" style="font-family: &#39;MS PGothic&#39;,sans-serif; font-size: 12px; color: #555555; height:15px; line-height:15px; overflow:hidden; display:none;">PR</div>
+
+<script type="text/javascript">
+var proto, url; 
+if (location.protocol == 'https:') {
+  proto = "https:";
+} else {
+  proto = "http:";
+}
+url = proto + "//yads.c.yimg.jp/js/yads.js";
+
+document.write("<scri" + "pt type=\"text/javascript\" src=\"" + url + "\"></scri" + "pt>");
+</script><script type="text/javascript" src="./yads.js"></script>
+
+
+<script type="text/javascript">
+function escapeString(in_str, escape_amp) {
+  var escaped_str = in_str.replace(/</g, "&lt;")
+                          .replace(/>/g, "&gt;")
+                          .replace(/"/g, "&quot;")
+                          .replace(/'/g, "&#39;");
+  if (escape_amp) {
+     escaped_str = escaped_str.replace(/&/g, "&amp;");
+  }
+  return escaped_str;
+}
+
+function isSubDomain(in_check, in_trust) {
+  var t = in_trust.split('.');
+  var c = in_check.split('.');
+  if (t.length > c.length) {
+    return false;
+  }
+  for (var i = 0; i < t.length; i++) {
+    if (t[t.length - 1 - i] != c[c.length - 1 - i]) {
+      return false;
+    }
+  }
+  return true;
+}
+
+function isSafeUrl(in_url) {
+  var matched = in_url.match(/^(?:https?:)?\/\/([^\/]+)/);
+  if (matched) {
+    var domain = matched[1].match(/^([\w\.-]+)(:[0-9]+)?$/);
+    if (domain) {
+      var hostname = domain[1];
+      var whitelist = ['yahoo.co.jp'];
+      for (var i = 0; i < whitelist.length; i++) {
+        if (isSubDomain(hostname, whitelist[i])) {
+          return true;
+        }
+      }
+    }
+  }
+
+  return false;
+}
+
+function parseQuery(in_url) {
+  var ret = {};
+  var tmp = in_url.split('?');
+  if (tmp.length != 2) {
+    return ret;
+  }
+
+  var params = tmp[1].split('&');
+  for (var i = 0; i < params.length; i++) {
+    var fldVal = params[i].split('=');
+    if (fldVal.length == 1) {
+      ret[fldVal[0]] = '';
+    } else {
+      ret[fldVal[0]] = window.decodeURIComponent(fldVal[1]);
+    }
+  }
+  return ret;
+}
+
+var gAdTagCreater = {
+  printScript : function() { 
+    var url_strings = [];
+    var url_params = parseQuery(location.href);
+    var entry = (function(in_url) {
+      if (typeof(in_url) == "undefined" || !isSafeUrl(in_url)) {
+        return "";
+      }
+      return in_url;
+    })(url_params['tag_path']);
+
+    if (entry == "") {
+      return;
+    }
+
+    for (var f in url_params) {
+      if (f != 'tag_path') {
+        if (f.match(/^[\w-]+$/)) {
+          var v = url_params[f];
+          url_strings.push(f + '=' + window.encodeURIComponent(escapeString(v, false)));
+        }
+      }
+    }
+
+    document.write('<script type="text/javascript" src="' + 
+                   escapeString(entry, true) +
+                   '?' +
+                   url_strings.join('&') +
+                   '"></scr' + 'ipt>' );
+  },
+  set : function() {
+    this.printScript();
+  }
+};
+
+</script>
+<script type="text/javascript">
+
+gAdTagCreater.set();
+
+</script><script type="text/javascript" src="./tag(2)"></script><script src="./oi" charset="UTF-8" type="text/javascript"></script>
+
+</div>
+
+
+</body></html>

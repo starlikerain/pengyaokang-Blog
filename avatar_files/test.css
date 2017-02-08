@@ -1,0 +1,7 @@
+.popular-tags { -moz-column-count: 4; -webkit-column-count: 4; column-count: 4; margin: 10px 0 0; }
+.popular-tags li { margin: 3px 0; }
+.popular-tags li.grade-1, .popular-tags li.grade-2, .popular-tags li.level1, .popular-tags li.level2 { font-size: 18px; font-weight: bold; }
+.popular-tags li.grade-1 a, .popular-tags li.grade-2 a, .popular-tags li.level1 a, .popular-tags li.level2 a { color: #3e5b71; }
+.popular-tags li.level3 { font-size: 13px; font-weight: bold; }
+.popular-tags li.level3 a { color: #587c97; }
+.popular-tags li a { display: inline-block; width: 100%; }

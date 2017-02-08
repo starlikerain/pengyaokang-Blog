@@ -1,0 +1,22 @@
+ads_dokoiku_callback_1(
+ {"adLength":"1",
+ "ads":[   {
+     "adIndex":"1",
+     "ccid":"1",
+     "adType":"u",
+     "imageTypeId":"5",
+     "adTitle":"地域密着型広告をあなたのサイトで配信",
+     "adBodyText1":"リクルートの地域密着型広告ドコイク？アドネットワーク",
+     "adBodyText2":"",
+     "clickUrl":"http://nw.ads.doko.jp/ADCLICK/CID=0148d70a0000000000000000/IMPK=dlguvrlo/SITE=IGPIXIVN/PREF=48/CITY=-1/M4=53453311/GEO=1/DEV=p/PID=illust",
+     "objectUrl":{"a":"","b":"","d":""
+     },
+     "subImageUrl":"",
+     "adFooterText":"",
+     "adGenre":"",
+     "geoType":"j",
+     "potitionX":"",
+     "potitionY":""
+   }
+ ]}
+);

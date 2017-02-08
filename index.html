@@ -1,10 +1,268 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
   <meta charset="UTF-8">
-  <title></title>
+  <title>Resume</title>
+  <link rel="stylesheet" type="text/css" href="./icon/iconfont.css">
+  <link rel="stylesheet" href="./style.css"/>
+  <link rel="shortcut icon" type="image/x-icon" href="./image/boy.jpg" />
+  <style>
+    .covver {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 999999;
+      width: 100%;
+      height: 10000px;
+      background-color: white;
+    }
+  </style>
 </head>
 <body>
-看
+<div class="covver">
+111
+</div>
+<div id="start-overlay">
+  <div class="wrap">
+    <div class="inner">Welcome</div>
+  </div>
+</div>
+<div id="header">
+  <div class="half-screen">
+    <div class="light-screen">
+      <div class="wrap">
+        <p class="author">彭耀慷</p>
+        <h1>前端开发工程师</h1>
+        <ul class="main-menu">
+          <li><a data-scroll href="#works-wrap">作品</a></li>
+          <li><a data-scroll href="#about-wrap">个人</a></li>
+          <li><a data-scroll href="#strength-wrap">技能</a></li>
+          <li><a data-scroll href="#contact-wrap">联系</a></li>
+        </ul>
+        <div class="social-link">
+          <a href="https://github.com/starlikerain" target="_blank">到github上看我</a>
+        </div>
+        <span class="iconfont icon-menu"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="half-screen dark-screen">
+    <span class="logo"><img src="./路牌完成.jpg" alt="img"/></span>
+    <div class="back-wrap">
+      <img class="back" src="./image/desktop.jpg" alt=""/>
+    </div>
+    <div class="dark-overlay"></div>
+    <p class="intro-message animate">
+      据说彭耀慷是一名认真的前端开发工程师。
+    </p>
+    <span class="iconfont icon-jiantouxia"></span>
+    <div class="go-works">
+      <a class="animate" data-scroll href="#works-wrap">我的作品</a>
+    </div>
+    <div class="riband">
+      <a href="http://www.jianshu.com/u/9039e768f3f3" target="_blank"></a>
+    </div>
+  </div>
+  <span class="line"></span>
+</div>
+<div id="inside-page">
+  <div id="sidebar">
+    <div class="side-logo-wrap">
+      <div class="slw-light">
+        <a class="slw-logo" data-scroll href="#header"></a>
+      </div>
+      <div class="slw-dark"></div>
+    </div>
+    <ul class="side-menu">
+      <li><a data-scroll href="#header">首页</a></li>
+      <li><a data-scroll href="#works-wrap">作品</a></li>
+      <li><a data-scroll href="#about-wrap">个人</a></li>
+      <li><a data-scroll href="#strength-wrap">技能</a></li>
+      <li><a data-scroll href="#contact-wrap">联系</a></li>
+    </ul>
+    <a href="http://www.jianshu.com/u/9039e768f3f3" class="blog" target="_blank">我的博客</a>
+  </div>
+  <div id="content">
+    <div class="main">
+      <div id="works-wrap">
+        <h2>作品</h2>
+        <ul class="works">
+          <li class="work-item">
+            <a href="./image/慧聪登录页1.png" class="work-item-link"
+            target="_blank"
+            >
+                                <span class="clearfix">
+                                    <span class="work-item-left">
+                                        <img src="./image/work01.jpg" alt=""/>
+                                        <span class="animate work-item-cover">
+                                            <b>点击查看</b>
+                                        </span>
+                                    </span>
+                                    <span class="work-item-right">
+                                        <h5>工作项目：慧聪网登录页改版</h5>
+                                        这是我真实工作中做的项目<br/>慧聪网登录页改版，我负责前端技术支持，功能方面添加了微信扫码登录功能(轮询实现)，以及调整了合作账户登录的内容
+                                    </span>
+                                </span>
+            </a>
+          </li>
+          <li class="work-item">
+            <a href="./image/FireShot%20Capture%2015%20-%20买卖通首页%20-%20http___home.hc360.com_homes_main_index.html.png" class="work-item-link" target="_blank">
+                                <span class="clearfix">
+                                    <span class="work-item-left">
+                                        <img src="./image/work02.jpg" alt=""/>
+                                        <span class="animate work-item-cover">
+                                            <b>点击查看</b>
+                                        </span>
+                                    </span>
+                                    <span class="work-item-right">
+                                        <h5>工作项目：慧聪商务中心首页</h5>
+                                        慧聪商务中心首页改版<br/>我提供前端技术支持，这个项目特点是用了E-Charts来辅助实现了额外的效果
+                                    </span>
+                                </span>
+            </a>
+          </li>
+          <li class="work-item">
+            <a href="./image/FireShot%20Capture%2013%20-%20商务中心_慧聪网_%20-%20http___my.b2b.hc360.com_my_turbine.png" class="work-item-link" target="_blank">
+                                <span class="clearfix">
+                                    <span class="work-item-left">
+                                        <img src="./image/work03.jpg" alt=""/>
+                                        <span class="animate work-item-cover">
+                                            <b >点击查看</b>
+                                        </span>
+                                    </span>
+                                    <span class="work-item-right">
+                                        <h5>工作项目：慧聪网应用中心改版</h5>
+                                        慧聪应用中心改版<br/>我提供前端技术支持，这个项目我用了npm上的dragula包，来丰富用户交互的舒适性。
+                                    </span>
+                                </span>
+            </a>
+          </li>
+          <li class="work-item">
+            <a href="" class="work-item-link">
+                                <span class="clearfix">
+                                    <span class="work-item-left">
+                                        <img src="./image/work04.jpg" alt=""/>
+                                        <span class="animate work-item-cover">
+                                            <b>点击查看</b>
+                                        </span>
+                                    </span>
+                                    <span class="work-item-right">
+                                        <h5>工作项目</h5>
+                                        这是我的第四个项目，<br/>xxx
+                                    </span>
+                                </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="about-wrap">
+        <h2>个人</h2>
+        <div class="about clearfix">
+          <div class="about-text">
+            <p class="about-intro">
+              A
+            </p>
+            <p class="about-intro">
+              B
+
+            </p>
+            <p class="about-intro">
+              C
+            </p>
+            <ul class="about-basic clearfix">
+              <li>姓名：彭耀慷</li>
+              <li>目标城市：杭州</li>
+              <li>出生日期：1995年8月29日</li>
+              <li>意向职位：前端开发工程师</li>
+            </ul>
+          </div>
+          <div class="about-photo">
+            <img src="./image/me.jpg" title="好奇？面试我吧。" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div id="strength-wrap">
+        <div class="strength-skills">
+          <h2>技能</h2>
+          <ul class="skills">
+            <li>
+              <strong>HTML && css</strong>
+              <p class="H-C">熟悉W3C规范，对web语义化有一定理解。掌握css的开发调试，
+                平时也注意学习英文来提高代码的可读性。对常见的浏览器兼容问题有自己的理解。
+                掌握盒模型、浮动定位、BFC等知识。</p>
+            </li>
+            <li>
+              <strong>Javascript</strong>
+              <p>能够实现常见效果，掌握原生、事件模型、DOM 操作、ajax、jsonp、跨域、闭包、原型链的知识。</p>
+            </li>
+            <li>
+              <strong>框架 && 工具</strong>
+              <p>能够自己封装一些常用jQuery插件。用nodeJS搭建服务器Mock数据。结合webpack和vue做项目。了解HTTP基本知识。
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="strength-advantage">
+          <h3>优点</h3>
+          <ul class="adv-wrap clearfix">
+            <li>
+              <strong>守时</strong>
+              <p>
+              </p>
+            </li>
+            <li>
+              <strong>可靠</strong>
+              <p>
+              </p>
+            </li>
+            <li>
+              <strong>积极</strong>
+              <p>
+              </p>
+            </li>
+            <li>
+              <strong>探索</strong>
+              <p>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="contact-wrap">
+        <h2>联系</h2>
+        <ul class="contact-methods">
+          <li class="contact-tel">电话：18658670013</li>
+          <li class="contact-email">邮件：pengyaokang@gmail.com</li>
+        </ul>
+        <p class="message1">你还可以通过微信联系我。</p>
+        <ul class="contact-img clearfix">
+          <li><img src="./image/WechatIMG23.jpeg" alt=""/></li>
+        </ul>
+        <p class="message2">感谢阅览我的简历，期待你的回复。</p>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <ul class="f-wrap">
+      <li>© copyright 彭耀慷,2017</li>
+    </ul>
+  </div>
+</div>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./js/smooth-scroll.js"></script>
+<script src="./js/all.js"></script>
+<script>
+  smoothScroll.init({
+    selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+    selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+    speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+    easing: 'easeInOutCubic', // Easing pattern to use
+    offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+    callback: function ( anchor, toggle ) {} // Function to run after scrolling
+  });
+</script>
+
 </body>
 </html>
