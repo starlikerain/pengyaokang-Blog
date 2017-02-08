@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5b1d2d1-4f9b-4383-abe3-455972aea56b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/Avatar.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="765">
+              <caret line="257" column="21" lean-forward="true" selection-start-line="257" selection-start-column="21" selection-end-line="257" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -76,8 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fh5co-partner</find>
-      <find>min-partner</find>
       <find>heigh</find>
       <find>nav-header</find>
       <find>wrap</find>
@@ -106,6 +104,8 @@
       <find>github</find>
       <find>boy</find>
       <find>logo</find>
+      <find>http://pengyaokang.top/</find>
+      <find>&lt;link</find>
     </findStrings>
     <replaceStrings>
       <replace>Ele_text</replace>
@@ -350,12 +350,12 @@
       <workItem from="1485325613051" duration="372000" />
       <workItem from="1486218494867" duration="15857000" />
       <workItem from="1486525838982" duration="595000" />
-      <workItem from="1486533104089" duration="603000" />
+      <workItem from="1486533104089" duration="852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57119000" />
+    <option name="totallyTimeSpent" value="57368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="765">
+          <caret line="257" column="21" lean-forward="true" selection-start-line="257" selection-start-column="21" selection-end-line="257" selection-end-column="21" />
           <folding />
         </state>
       </provider>
