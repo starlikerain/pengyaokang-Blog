@@ -67,6 +67,6 @@ $(window).on('load', function () {
   console.log(1);
   $('#header').hide();
   $('#inside-page').hide();
-  setTimeout(show, 2500);
+  setTimeout(show, 1000);
 })
 
